@@ -3,7 +3,7 @@ from telethon import TelegramClient, events, functions, types
 
 # --- 🏛️ CEO BETHUEL'S CONTROL PANEL ---
 # Paste your keys between the quotes below
-API_ID = '24395315’
+API_ID = '2439531'
 API_HASH = '9ea9861f2c047bb3ebc0de86675c0238'
 COZE_TOKEN = 'pat_CAZ0y8INYfCERyDquWNbBO9yE1Scj313JRDVlMY4W1M166TclUk2XQDZMfC5xhkS'
 BOT_ID = '8201261247:AAHLYVSH3ZhzYm0xuF-ZInILvpY0WRPbcyo'
