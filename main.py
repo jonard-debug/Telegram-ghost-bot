@@ -1,3 +1,5 @@
+import asyncio
+asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
 import asyncio, random, requests
 from telethon import TelegramClient, events, functions, types
 
