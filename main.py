@@ -2,7 +2,7 @@ from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 import asyncio
 
-API_ID = 24395315
+API_ID = '24395315'
 API_HASH = '9ea9861f2c047bb3ebc0de86675c0238'
 PHONE = '+2348130641310'
 
