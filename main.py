@@ -78,5 +78,10 @@ async def handle_new_message(event):
             print(f"Error: {e}")
 
 print("🏛️ CEO BETHUEL GHOST IS READY TO LAUNCH! 🚀")
-client.start()
-client.run_until_disconnected()
+async def main():
+    await client.start()
+    print("🏛️ CEO BETHUEL GHOST IS FULLY LIVE! 🚀")
+    await client.run_until_disconnected()
+
+if __name__ == '__main__':
+    asyncio.run(main())
