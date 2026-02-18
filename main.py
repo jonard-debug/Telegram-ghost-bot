@@ -3,7 +3,7 @@ from telethon import TelegramClient
 from telethon.sessions import StringSession
 
 API_ID = '24395315'
-API_HASH = 'c026ec039860c4416183cc9486c878f9'
+API_HASH = '9ea9861f2c047bb3ebc0de86675c0238'
 
 # 1. PUT YOUR PHONE NUMBER HERE (e.g., '+2348012345678')
 PHONE = '+2348130641310' 
