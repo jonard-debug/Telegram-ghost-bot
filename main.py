@@ -1,3 +1,12 @@
+from http.server import BaseHTTPRequestHandler, HTTPServer
+import threading
+
+def run_health_server():
+    server = HTTPServer(('0.0.0.0', 10000), BaseHTTPRequestHandler)
+    server.serve_forever()
+
+threading.Thread(target=run_health_server, daemon=True).start()
+
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 import asyncio
