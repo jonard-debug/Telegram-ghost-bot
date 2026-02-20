@@ -106,6 +106,11 @@ async def ghost_logic(event):
         await typing_delay(event.chat_id)
         await event.reply(get_funnel_text(6, u['type']))
 
-print("🏛️ J-SYSTEM GHOST V5.0 ONLINE... 👻🏎️💨")
-client.start()
-client.run_until_disconnected()
+async def main():
+    await client.start()
+    print("🏛️ J-SYSTEM GHOST V5.0 ONLINE... 👻🏎️💨")
+    await client.run_until_disconnected()
+
+import asyncio
+if name == "main":
+    asyncio.run(main())
